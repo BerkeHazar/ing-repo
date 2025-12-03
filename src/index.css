@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --color-bg-light: 255 255 255;
+        --color-bg-dark: 15 23 42;
+        --color-text-light: 15 23 42;
+        --color-text-dark: 248 250 252;
+    }
+
+    body {
+        @apply antialiased;
+    }
+
+    .light {
+        background-color: rgb(var(--color-bg-light));
+        color: rgb(var(--color-text-light));
+    }
+
+    .dark {
+        background-color: rgb(var(--color-bg-dark));
+        color: rgb(var(--color-text-dark));
+    }
+}
