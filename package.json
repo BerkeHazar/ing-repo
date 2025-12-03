@@ -1,7 +1,6 @@
 {
   "name": "yeni-klas-r",
   "homepage": "https://berkehazar.github.io/ing-repo/",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
